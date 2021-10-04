@@ -7,7 +7,7 @@ defmodule IvanWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_ivan_key",
-    signing_salt: "PRpMbWl6"
+    signing_salt: "BCKZx7Wq"
   ]
 
   socket "/socket", IvanWeb.UserSocket,

@@ -13,10 +13,10 @@ config :ivan,
 # Configures the endpoint
 config :ivan, IvanWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "H8DxGebh5nnEUpRX6G8Q62ynhEgjGXPkYi8F19NgMQTMbOKYuv22ES0707qIAuOS",
+  secret_key_base: "PMOES+Ob0/CI2gZS2sMRaVs9cgqMGAF2mviEGmSkZ3VlIovIFDZEBLx5qSFYPAt/",
   render_errors: [view: IvanWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Ivan.PubSub,
-  live_view: [signing_salt: "lNTI6qs0"]
+  live_view: [signing_salt: "fGX8ijFl"]
 
 # Configures Elixir's Logger
 config :logger, :console,
